@@ -44,9 +44,9 @@ In your **default Lakehouse**, do the following:
 - `sedona-spark-shaded-3.5_2.12-1.8.0.jar`
 > These versions align with the example notebook. Adjust if your environment uses different Spark/Sedona versions.
 
-### 2) Configure the notebook to load Sedona JARs (ABFSS paths)
+### 2) Configure the notebook to load Sedona JARs (ABFS paths)
 
-At the **top of the notebook**, add a Fabric‑specific `%%configure` cell and reference the JARs using their **ABFSS** paths.
+At the **top of the notebook**, add a Fabric‑specific `%%configure` cell and reference the JARs using their **ABFS** paths.
 
 ## Outputs
 Output files are stored in a versioned folder under the Lakehouse Files area, e.g.:
